@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import CardList from '../components/CardList'
-import SearchBox from '../components/SearchBox'
-import Scroll from '../components/Scroll'
+import { CardList } from '../components/CardList'
+import { SearchBox } from '../components/SearchBox'
+import { Scroll } from '../components/Scroll'
 import './App.css'
 import 'tachyons'
 

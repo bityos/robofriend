@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SearchBox = ({ filterRobots, searchChange }) => {
+export const SearchBox = ({ filterRobots, searchChange }) => {
     return (
         <div className='pa2'>
             <input
@@ -12,5 +12,3 @@ const SearchBox = ({ filterRobots, searchChange }) => {
         </div>
     )
 }
-
-export default SearchBox

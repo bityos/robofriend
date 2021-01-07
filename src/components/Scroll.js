@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Scroll = (props) => {
+export const Scroll = (props) => {
     return (
         <div
             style={
@@ -14,5 +14,3 @@ const Scroll = (props) => {
         </div>
     )
 }
-
-export default Scroll
