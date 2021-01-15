@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const SearchBox = ({ filterRobots, searchChange }) => {
+export const SearchBox = ({ searchChange }) => {
     return (
         <div className='pa2'>
             <input

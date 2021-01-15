@@ -15,7 +15,6 @@ const mapSateToProps = (state) => {
     isPending: state.requestRobots.isPending,
     error: state.requestRobots.error
   }
-
 }
 
 const mapDispatchToProps = (dispach) => {
@@ -33,9 +32,11 @@ class App extends Component {
 
   render() {
     const { searchField, onSearchChange, robots, isPending } = this.props
+
     const filterRobots = robots.filter(robot => {
       return robot.name.toLowerCase().includes(searchField.toLowerCase())
     })
+    
     return (
       <div className='tc'>
         <h1 className='f1'>RobotsFriends</h1>
