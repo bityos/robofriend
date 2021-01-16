@@ -10,12 +10,12 @@
     {
       "src": "android-chrome-96x96.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "96x96"
     },
     {
       "src": "mstile-150x150.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "150x150"
     }
   ],
   "start_url": ".",
