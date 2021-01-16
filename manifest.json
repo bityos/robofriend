@@ -15,7 +15,7 @@
     {
       "src": "mstile-150x150.png",
       "type": "image/png",
-      "sizes": "150x150"
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
